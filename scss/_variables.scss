@@ -1,12 +1,21 @@
 // Colores
 
-$links: red;
-$letraCar: blue;
+$coloresTexto: (
+    links: red,
+    carrousel: blue,
+    nombrePag: #AD3319,
+    verde: forestgreen
+);
+
+@each $texto, $color in $coloresTexto {
+    .colorTexto--#{$texto}{
+        color: $color;
+    }    
+}
+
 $fondoNomPag: #31A87D;
 $backgroundWS: whitesmoke;
-$colorNomPag: #AD3319;
 $bordeNomPag: 2px #C78F95;
-$letraVerde: forestgreen;
 $colorBlanco: white;
 $colorNegro: black;
 $colorHoverNav: rgb(20, 200, 220);

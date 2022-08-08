@@ -1,8 +1,19 @@
+.colorTexto--links {
+  color: red; }
+
+.colorTexto--carrousel {
+  color: blue; }
+
+.colorTexto--nombrePag {
+  color: #AD3319; }
+
+.colorTexto--verde {
+  color: forestgreen; }
+
 * {
   box-sizing: border-box; }
 
 a:link, a:visited, a:active {
-  color: red;
   text-decoration: none; }
 
 body {
@@ -81,14 +92,12 @@ footer {
   -webkit-text-stroke: 2px #C78F95;
   font-family: "Playfair Display", serif;
   font-size: 600%;
-  color: #AD3319;
   text-align: center; }
 
 .fuente5 {
   font-family: Libre Baskerville, serif;
   font-size: 20px;
-  font-weight: 600;
-  color: forestgreen; }
+  font-weight: 600; }
 
 .fuente6 {
   font-family: Libre Baskerville, serif;
@@ -236,7 +245,6 @@ h1 {
   gap: 10px 30px; }
 
 .fuenteCar {
-  color: blue;
   background-color: whitesmoke;
   opacity: 90%;
   border-radius: 20px; }

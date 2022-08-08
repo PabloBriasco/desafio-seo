@@ -1,0 +1,10 @@
+// Estilo del título de cada página
+
+.titulo {    
+    margin: 4%;    
+    border-radius: $radio20;
+    border-style: groove;
+    background-color: $backgroundTitulo;
+    border-color: $bordeTitulo;
+    opacity: $opac80; 
+}

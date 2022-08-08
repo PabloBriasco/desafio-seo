@@ -1,0 +1,20 @@
+// Estilo de la página Mugiwaras
+
+#mugis p span {
+    text-decoration: underline;
+}
+
+.mugiCard {
+    font-family: $fuenteBasker;
+    background-color: $colorNegro;
+    border-radius: $radio20;   
+    color: $colorBlanco; 
+    border-color: $colorBlanco;    
+    border-style: solid;
+    width: 18rem;
+
+    img {
+        border-radius: $radio20;
+        margin: 0;
+    }
+}

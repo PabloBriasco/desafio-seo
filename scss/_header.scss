@@ -6,6 +6,7 @@
 }
 
 h1 {
+    @extend .colorTexto--nombrePag;
     @include textos ($radio10, 8%, $fondoNomPag, none);    
     opacity: $opac90;    
     

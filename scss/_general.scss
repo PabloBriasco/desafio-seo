@@ -7,6 +7,7 @@
 // Estilos de link
 
 a:link, a:visited, a:active {    
+    @extend .colorTexto--links;
     text-decoration: none;
 }
 

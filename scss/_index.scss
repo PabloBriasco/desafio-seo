@@ -18,7 +18,8 @@
 
     // Carousel
 
-    .fuenteCar {    
+    .fuenteCar { 
+        @extend .colorTexto--carrousel;   
         background-color: $backgroundWS;
         opacity: $opac90;
         border-radius: $radio20;

@@ -1,10 +1,10 @@
-.colorTexto--links {
+.colorTexto--links, a:link, a:visited, a:active {
   color: red; }
 
-.colorTexto--carrousel {
+.colorTexto--carrousel, .fuenteCar {
   color: blue; }
 
-.colorTexto--nombrePag {
+.colorTexto--nombrePag, h1 {
   color: #AD3319; }
 
 .colorTexto--verde {

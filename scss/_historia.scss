@@ -1,10 +1,8 @@
 // Estilos de la página "Historia"
 
 #construccion {
-    margin: 4%;    
-    border-radius: $radio20;
-    border-style: groove;
-    background-color: $backgroundWS;
+    @include textos ($radio20, 4%, $backgroundWS, none);    
+    border-style: groove;    
     align-items: center;
 
     img {

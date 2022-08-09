@@ -1,20 +1,15 @@
 // Estilos de la página "Marina"
 
-#listaRangos {        
-    background-color: $backgroundWS;
-    border-style: double;
-    border-color: $bordeMarina;
-    border-width: $anchoBorde1;
-    border-radius: $radio20;
+#listaRangos { 
+    @include textos ($radio20, none, $backgroundWS, $bordeMarina);    
+    border-style: double;    
+    border-width: $anchoBorde1;    
 }
 
-#marines {    
-    margin: 10% 8%;
-    background-color: $backgroundWS;
-    border-style: double;
-    border-color: $bordeMarina;
-    border-width: $anchoBorde1;
-    border-radius: $radio20;
+#marines {
+    @include textos ($radio20, 10% 8%, $backgroundWS, $bordeMarina);     
+    border-style: double;    
+    border-width: $anchoBorde1;    
 }
 
 #rangosMarine {    

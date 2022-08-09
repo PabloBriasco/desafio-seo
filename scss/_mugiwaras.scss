@@ -5,11 +5,9 @@
 }
 
 .mugiCard {
-    font-family: $fuenteBasker;
-    background-color: $colorNegro;
-    border-radius: $radio20;   
-    color: $colorBlanco; 
-    border-color: $colorBlanco;    
+    @include textos ($radio20, 0, $colorNegro, $colorBlanco);
+    font-family: $fuenteBasker;       
+    color: $colorBlanco;       
     border-style: solid;
     width: 18rem;
 

@@ -1,11 +1,10 @@
 // Estilo del Footer
 
-footer {    
+footer {
+    @include textos ($radio20, none, $backgroundFooter, none);
     display: flex;
     align-items: center;
-    width: 100%;
-    background-color: $backgroundFooter;
-    border-radius: $radio20;
+    width: 100%;    
 
     p {
         padding-left: 5px;

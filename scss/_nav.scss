@@ -2,15 +2,13 @@
 
 
 .navList {
+    @include textos ($radio10, $margenNav, $backgroundWS, none);
     height: 100%;
-    align-items: center;
-    margin: $margenNav;
-    background-color: $backgroundWS;
+    align-items: center;      
     display: grid;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
     list-style: none;
-    opacity: $opac80;    
-    border-radius: $radio10;  
+    opacity: $opac80;      
     padding: 0;  
 
     li {

@@ -1,16 +1,14 @@
 // Estilo del Header
 
 #banner {
-    width: $anchoBanner;
-    height: $altoBanner;
+    @include tamanio ($anchoBanner, $altoBanner);    
     animation-duration: $animacTime;
 }
 
 h1 {
-    margin: 8%;
-    background-color: $fondoNomPag;
+    @include textos ($radio10, 8%, $fondoNomPag, none);    
     opacity: $opac90;    
-    border-radius: $radio10;
+    
 
     span {
         text-emphasis: triangle;

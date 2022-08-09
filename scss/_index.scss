@@ -32,12 +32,9 @@
     // Texto Main
 
     #sinopsis {
-        margin: 6% 6%;
-        background-color: $backgroundWS;
-        border-style: double;
-        border-color: $colorNaranja;
-        border-width: $anchoBorde1;
-        border-radius: $radio20;
+        @include textos ($radio20, 6% 6%, $backgroundWS, $colorNaranja);          
+        border-style: double;       
+        border-width: $anchoBorde1;        
     }
 
     // Aside del Index

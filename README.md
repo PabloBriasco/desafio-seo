@@ -26,3 +26,5 @@ Contacto || se agregaron las Keywords "One Piece, Fanpage, Laugh Tale, comunidad
 
 
 Se creó la carpeta Pages y se metieron ahí las páginas del sitio.
+
+Se agregó Favicon a todas las páginas.

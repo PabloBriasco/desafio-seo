@@ -11,3 +11,7 @@ SASS:
 -   Extend: se mantuvieron los extend que ya habían sido utilizados para la entrega del desafío anterior.
 
 SEO:
+
+Index || se agregaron las Keywords "One Piece, Fanpage, Laugh Tale, comunidad, West Blue, East Blue, North blue, South Blue, Grand Line, Red Line", se cambió el título a "Laugh tale - Inicio". Se agregó descripción.
+
+Mugiwaras || se agregaron las Keywords "One Piece, Fanpage, Laugh Tale, comunidad, mugiwaras, Luffy, Nami, Usopp, Sanji, Chopper, Nico Robin, Franky, Brook, Jinbei, Jinbe, nakamas, tripulación, sombrero de paja", se cambió el título a "Laugh Tale - Tripulación - Info sobre los mugiwaras, recompensa". Se agregó descripción.
